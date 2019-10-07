@@ -261,8 +261,10 @@ public class ChickenBot {
 							List<String> listb = Arrays.asList(groupB);
 
 							// リストの並びをシャッフル
-							Collections.shuffle(lista);
-							Collections.shuffle(listb);
+							for (int sh = 0; sh < ran; sh++) {
+								Collections.shuffle(lista);
+								Collections.shuffle(listb);
+							}
 
 							// listから配列へ戻す
 							String[] groupA2 = (String[]) lista.toArray(new String[lista.size()]);
@@ -326,9 +328,11 @@ public class ChickenBot {
 							List<String> listc = Arrays.asList(groupC);
 
 							// リストの並びをシャッフル
-							Collections.shuffle(lista);
-							Collections.shuffle(listb);
-							Collections.shuffle(listc);
+							for (int sh = 0; sh < ran; sh++) {
+								Collections.shuffle(lista);
+								Collections.shuffle(listb);
+								Collections.shuffle(listc);
+							}
 
 							// listから配列へ戻す
 							String[] groupA2 = (String[]) lista.toArray(new String[lista.size()]);
@@ -521,8 +525,10 @@ public class ChickenBot {
 							List<String> listb = Arrays.asList(groupB);
 
 							// リストの並びをシャッフル
-							Collections.shuffle(lista);
-							Collections.shuffle(listb);
+							for (int sh = 0; sh < ran; sh++) {
+								Collections.shuffle(lista);
+								Collections.shuffle(listb);
+							}
 
 							// listから配列へ戻す
 							String[] groupA2 = (String[]) lista.toArray(new String[lista.size()]);
@@ -585,9 +591,11 @@ public class ChickenBot {
 							List<String> listc = Arrays.asList(groupC);
 
 							// リストの並びをシャッフル
-							Collections.shuffle(lista);
-							Collections.shuffle(listb);
-							Collections.shuffle(listc);
+							for (int sh = 0; sh < ran; sh++) {
+								Collections.shuffle(lista);
+								Collections.shuffle(listb);
+								Collections.shuffle(listc);
+							}
 
 							// listから配列へ戻す
 							String[] groupA2 = (String[]) lista.toArray(new String[lista.size()]);
@@ -843,8 +851,10 @@ public class ChickenBot {
 							List<String> listb = Arrays.asList(groupB);
 
 							// リストの並びをシャッフル
-							Collections.shuffle(lista);
-							Collections.shuffle(listb);
+							for (int sh = 0; sh < ran; sh++) {
+								Collections.shuffle(lista);
+								Collections.shuffle(listb);
+							}
 
 							// listから配列へ戻す
 							String[] groupA2 = (String[]) lista.toArray(new String[lista.size()]);
@@ -909,9 +919,11 @@ public class ChickenBot {
 							List<String> listc = Arrays.asList(groupC);
 
 							// リストの並びをシャッフル
-							Collections.shuffle(lista);
-							Collections.shuffle(listb);
-							Collections.shuffle(listc);
+								for (int sh = 0; sh < ran; sh++) {
+								Collections.shuffle(lista);
+								Collections.shuffle(listb);
+								Collections.shuffle(listc);
+							}
 
 							// listから配列へ戻す
 							String[] groupA2 = (String[]) lista.toArray(new String[lista.size()]);
